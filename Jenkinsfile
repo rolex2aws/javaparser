@@ -9,7 +9,7 @@ pipeline{
                   git url: 'https://github.com/davidmoten/maven-demo.git', branch: 'main'
                    }
           }
-            stage ('build')
+            stage ('MY build Jenkins Pipeline')
             {
              steps{
                  sh 'mvn clean install'
